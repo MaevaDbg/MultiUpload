@@ -1,0 +1,4 @@
+mav_test_upload:
+    resource: "@MavTestUploadBundle/Resources/config/routing.yml"
+    prefix:   /
+
