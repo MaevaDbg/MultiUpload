@@ -1,3 +1,6 @@
-{% include "PunkAveFileUploaderBundle:Default:templates.html.twig" %}
+{% extends "MavTestUploadBundle::base.html.twig" %}
 
-Hello {{ name }}!
+{% block body %}
+    {% include "PunkAveFileUploaderBundle:Default:templates.html.twig" %}
+    Hello!
+{% endblock %}

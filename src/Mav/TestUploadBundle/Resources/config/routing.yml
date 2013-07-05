@@ -1,3 +1,13 @@
 mav_test_upload_homepage:
-    pattern:  /hello/{name}
+    pattern:  /
     defaults: { _controller: MavTestUploadBundle:Default:index }
+
+MavTestUploadBundle_article:
+        resource: "@MavTestUploadBundle/Resources/config/routing/article.yml"
+        prefix:   /article
+        
+MavTestUploadBundle_file:
+        resource: "@MavTestUploadBundle/Resources/config/routing/file.yml"
+        prefix:   /file
+ 
+ 
