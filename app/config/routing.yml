@@ -1,3 +1,7 @@
+ma_dev_upload_file:
+    resource: "@MaDevUploadFileBundle/Resources/config/routing.yml"
+    prefix:   /
+
 mav_test_upload:
     resource: "@MavTestUploadBundle/Resources/config/routing.yml"
     prefix:   /

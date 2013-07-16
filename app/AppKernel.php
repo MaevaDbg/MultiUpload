@@ -18,6 +18,7 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new PunkAve\FileUploaderBundle\PunkAveFileUploaderBundle(),
             new Mav\TestUploadBundle\MavTestUploadBundle(),
+            new MaDev\UploadFileBundle\MaDevUploadFileBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
