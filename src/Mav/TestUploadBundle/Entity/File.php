@@ -7,7 +7,7 @@ use Symfony\Component\Validator\Constraints as Assert;
 /**
  * File
  * 
- * @ORM\Table()
+ * @ORM\Table(name="fichier")
  * @ORM\Entity() 
  */
 class File 

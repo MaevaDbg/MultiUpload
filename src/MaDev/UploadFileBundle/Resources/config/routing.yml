@@ -1,1 +1,3 @@
-
+madev_uploadfile_form:
+    pattern: /uploadfile
+    defaults: { _controller: "MaDevUploadFileBundle:File:upload" }

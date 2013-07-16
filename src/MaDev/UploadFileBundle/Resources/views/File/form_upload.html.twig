@@ -1,0 +1,12 @@
+<h1>File creation</h1>
+
+<form action="{{ path('madev_uploadfile_form') }}" method="post" {{ form_enctype(form) }}>
+    {{ form_errors(form) }}
+
+    {{ form_errors(form.files) }}
+        {{ form_widget(form.files, { 'full_name': form.files.vars.full_name ~ '[]', 'attr': { 'multiple': 'multiple' } }) }}
+
+    {{ form_rest(form) }}
+
+    <input type="submit" />
+</form>
