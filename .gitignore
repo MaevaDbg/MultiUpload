@@ -5,5 +5,5 @@
 /app/logs/*
 /vendor/
 /bin/
-/web/uploads/
+/web/images/
 /nbproject/*
